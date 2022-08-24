@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-def uppercase(str):
-    new_text = ""
-    for i in (str):
-        char = ord(i)
-        if char >= ord('a') and char <= ord('z'):
-            char = char - 32
-            new_text = chr(char)
-        else:
-            new_text = i
-        print("{:s}".format(new_text), end="")
-        print("")
+def _uppercase(character):
+    if ord(character) >= 97 and ord(character) <= 122:
+        return (ord(character) - 32)
+    else:
+        return ord(character)
+
+def uppercase(string):
+    string_new = ""
+    for character in string:
+        string_new += "%c" % _uppercase(character)
+    print("{:s}".format(string_new))
