@@ -2,9 +2,7 @@
 from sys import argv
 if __name__ == "__main__":
     result = 0
-    if len(argv) == 1:
-        print("0")
-    else:
-        for index in range(1, len(argv)):
-            result += int(argv[i])
-            print(result)
+    for i in range(0, len(argv))
+    if i > 0:
+        result += int(argv[i])
+        print("{:d}".format(result))
