@@ -8,6 +8,6 @@ if __name__ == "__main__":
         print("{:d} argument:".format(argc))
     else:
         print("{:d} arguments:".format(argc))
-    for index in range(0, len(argv)):
-        if index > 0:
+    for i in range(0, len(argv)):
+        if i > 0:
             print("{:d}: {:s}".format(index, argv[index]))
