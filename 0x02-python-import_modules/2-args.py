@@ -1,19 +1,12 @@
 #!/bin/usr/python3
-from sys import argv
-
-def arguments():
-    arg_string = "arguments"
-    c_or_d = "."
-    length = len(argv) - 1
-    if (length == 1):
-        arg_string = "argument"
-    if (length - 1 >= 0):
-        c_or_d = ":"
-    print("{} {}{}".format(length, arg_string, c_or_d,))
-    
-    for index, arg in enumerate(argv):
-        if (index > 0):
-            print("{}: {}".format(index, arg))
-            
 if __name__ == "__main__":
-    arguments()
+    import sys
+    num = len(sys.argv)
+    if num == 1:
+        print("{:d} arguments:".format(num - 1))
+    elif num == 2:
+        print("{:d} argument:".format(num - 1))
+    else:
+        print("{:d} arguments:".format(num - 1))
+    for i in range(1, num):
+        print("{:d}: {:s}".format(i, sys.arv[i]))
