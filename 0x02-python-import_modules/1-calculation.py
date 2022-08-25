@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 
-if__name__ == "__main__":
-    """print the sum, difference, product and quotient of 10 and 5."""
-    from calculator_1 import add, sub, mul, div
+from calculator_1 import add, sub, mul, div
+if __name__ == "__main__":
     a = 10
     b = 5
     print('{:d} + {:d} = {:d}'.format(a, b, (add(a, b))))
