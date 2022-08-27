@@ -5,5 +5,5 @@
  * @head: is ...
  * Return: 0 if it is not palindrome, 1 if it is palindrome
  */
-int is_palindrome(listint_t **head)
+int is_palindrome(listint_t ** head)
 {}
