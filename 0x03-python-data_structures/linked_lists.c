@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
+
 /**
  * print_listint - prints all elements of a listint_t list
  * @h: pointer to head list
  * Return: Number of nodes
  */
-size_t print_listint(const listint_t *h)
+size_t print_listint(const listiint_t *h)
 {
 	const listint_t *current;
 	unsigned int n;
