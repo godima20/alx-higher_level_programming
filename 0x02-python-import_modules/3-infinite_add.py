@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-if __name__ == '__main__':
-    import sys
-    
-answer = 0
-
-for i in range(1, len(sys.argv)):
-    answer += int(sys.argv[i])
-print("{:d}".format(answer))
+from sys import argv
+if __name__ == "__main__":
+    answer = 0
+    for i in range(0, len(argv)):
+        if i > 0:
+            answer += int(argv[i])
+    print("{:d}".format(answer))
