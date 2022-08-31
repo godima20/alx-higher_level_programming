@@ -1,10 +1,7 @@
 #!/usr/bin/python3
 def square_matrix_map(matrix=[]):
-    if matrix is None:
-        return(None)
-    if not matrix:
-        return(None)
-    else:
-        for i in range(matrix):
-            for j in i:
-    return(newmatrix)
+    result = []
+    for i in matrix:
+        square = list(map(lambda n: n * n, i))
+        result.append(square)
+    return (result)
