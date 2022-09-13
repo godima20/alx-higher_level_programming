@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-class Square():
-    '''
-        An empty square class
-    '''
-    pass
+"""Square module definition.
+
+This module defines a simple `Square`` class
+
+For now class has neither ``Attributes`` nor ``Methods``
+"""
+pass
