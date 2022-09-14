@@ -22,7 +22,7 @@ class Square:
         """
         set square square area
 
-        Return:
+        Returns:
             the current square area (int)
         """
         return self.__size ** 2
@@ -41,7 +41,7 @@ class Square:
     def size(self, value):
         """
         setter of size
-
+        
         Args:
             size (int): sie of side of the square
         Raises:
