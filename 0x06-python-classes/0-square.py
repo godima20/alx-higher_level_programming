@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-"""Square module definition.
+"""Example Empty Class Square"""
 
-This module defines a simple `Square`` class
 
-For now class has neither ``Attributes`` nor ``Methods``
-"""
-pass
+class Square:
+    # pass is vital since I need a one line into class
+    pass
