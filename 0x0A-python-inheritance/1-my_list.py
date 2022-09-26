@@ -1,15 +1,13 @@
 #!/usr/bin/python3
-"""
-    module inherit list
-    """
+
+'''
+    Inherits from a list
+'''
 
 
 class MyList(list):
-    """
-        MyList
-    """
+    '''
+        Prints a sorted list without changing the original 
+    '''
     def print_sorted(self):
-        """
-        Print a sorted list
-        """
         print(sorted(self))
