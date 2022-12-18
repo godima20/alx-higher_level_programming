@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-"""
-Python script that fetches an URL with requests package
-"""
-import requests
+"""Python script that fetches an URL with requests package"""
 
+import requests
 
 if __name__ == "__main__":
     r = requests.get('https://intranet.hbtn.io/status')
